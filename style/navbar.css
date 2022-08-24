@@ -8,7 +8,7 @@
     width: 100%;
     height: 168px;
     border: 1px solid rgb(214, 210, 210);
-
+    background-color: white;
 }
 
 #nav1 {
@@ -263,3 +263,4 @@ input.nosubmit {
     height: 100px;
     cursor: pointer;
 }
+

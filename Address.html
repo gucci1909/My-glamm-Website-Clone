@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="https://www.myglamm.com/images/myGlamm-icon.png"/>
+    <link rel="stylesheet" href="./style/Address.css"/>
+    <title>Add Shipping Address</title>
+  </head>
+  <body>
+    <div>
+      <h1>Shipping Address</h1>
+      <input type="text" placeholder="Name" id="name1" />
+      <input type="number" placeholder="Mobile Number" id="m_no" />
+      <input type="text" placeholder="Email Address" id="email" />
+      <select id="place">
+        <option value="Other">Other</option>
+        <option value="Home">Home</option>
+        <option value="Office">Office</option>
+      </select>
+      <input
+        type="text"
+        id="flat"
+        placeholder="Flat no. / House no. / Apt Name"
+      />
+      <input type="text" placeholder="Street name" id="Street" />
+      <input type="text" placeholder="Neighbourhood" id="Neigh" />
+      <input type="number" placeholder="Pincode" id="Pin" />
+      <input type="text" id="incity" onchange="debounce(getData,1000)" placeholder="City" />
+      <input type="text" id="state" placeholder="State" />
+      <input type="text" id="landmark" placeholder="Landmark" />
+      <input type="checkbox" id="check" />
+      <p>Mark as Default</p>
+      <button id="back">Back</button>
+      <button id="continue">Continue</button>
+    </div>
+    <div id="container"></div>
+    <div id="container1"></div>
+    <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe
+          width="500"
+          height="500"
+          id="gmap_canvas"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./script/Address.js"></script>
