@@ -1,0 +1,67 @@
+/* HomePage CSS */
+
+#slideshow{
+    position:static;
+    width: 100%;
+    margin-top: 152px;
+    
+}
+#slide > img{
+    width: 100%;
+    height: 350px;
+}
+#previousSilde,#nextSlide{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    /* padding: 16px; */
+    margin-top: -22px;
+    /* color: white; */
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius:50%;
+    user-select: none;
+    border: none;
+}
+#img_h1,#img_h2,#img_h3{
+    width: 70%;
+    height: 280px;
+    margin-left: 15%;
+    margin-top: 80px;
+}
+#spot1{
+    text-align: center;
+    width: auto;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+#spot1_1{
+    height: 20%;
+}
+#spot1_2{
+    height: 82%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#spot1_2 > div{
+    width: 350px;
+    border: 1px solid black;
+}
+#spot1_2 > div > img{
+    width: 100%;
+    height: 100%;
+}
+#spot1_2 > div > div{
+    position: absolute;
+    width: 25.9%;
+    margin-top: -50px;
+    font-size: 30px;
+    background-color: whitesmoke;
+}
