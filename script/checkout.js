@@ -30,7 +30,12 @@ function display(address)
 
     })
 }
-let Product = JSON.parse(localStorage.getItem("data"));
+let Product =  [{Image: 'https://files.myglamm.com/site-images/800x800/Twstr-(1).jpg', Brand: 'TWIST IT MASCARA', Price: 1250, Description: 'Volumising and Curling Mascara'}
+,{Image: 'https://files.myglamm.com/site-images/800x800/Twstr-(1).jpg', Brand: 'TWIST IT MASCARA', Price: 1250, Description: 'Volumising and Curling Mascara'}
+,{Image: 'https://files.myglamm.com/site-images/800x800/Twstr-(1).jpg', Brand: 'TWIST IT MASCARA', Price: 1250, Description: 'Volumising and Curling Mascara'}
+,{Image: 'https://files.myglamm.com/site-images/800x800/STRBNG-(1).png', Brand: 'MANISH MALHOTRA STROBING CREAM', Price: 1550, Description: 'Versatile Illuminator With A Blend of 3 Hyaluronic Acids'},
+{Image: 'https://files.myglamm.com/site-images/800x800/Twstr-(1).jpg', Brand: 'TWIST IT MASCARA', Price: 1250, Description: 'Volumising and Curling Mascara'} ]
+// let Product = JSON.parse(localStorage.getItem("data"));
 display2(Product);
 function display2(Product)
 {
@@ -62,3 +67,11 @@ function display2(Product)
 
 
 }
+
+let data =  [{Image: 'https://files.myglamm.com/site-images/800x800/Twstr-(1).jpg', Brand: 'TWIST IT MASCARA', Price: 1250, Description: 'Volumising and Curling Mascara'}
+,{Image: 'https://files.myglamm.com/site-images/800x800/Twstr-(1).jpg', Brand: 'TWIST IT MASCARA', Price: 1250, Description: 'Volumising and Curling Mascara'}
+,{Image: 'https://files.myglamm.com/site-images/800x800/Twstr-(1).jpg', Brand: 'TWIST IT MASCARA', Price: 1250, Description: 'Volumising and Curling Mascara'}
+,{Image: 'https://files.myglamm.com/site-images/800x800/STRBNG-(1).png', Brand: 'MANISH MALHOTRA STROBING CREAM', Price: 1550, Description: 'Versatile Illuminator With A Blend of 3 Hyaluronic Acids'},
+{Image: 'https://files.myglamm.com/site-images/800x800/Twstr-(1).jpg', Brand: 'TWIST IT MASCARA', Price: 1250, Description: 'Volumising and Curling Mascara'} ]
+
+
