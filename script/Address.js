@@ -95,7 +95,7 @@ function contin() {
   let value = document.getElementById("check");
   if(value.checked)
   {
-    let data1 = JSON.parse(localStorage.getItem("Defaultaddress")) || [];
+    let data1 = [];
     data1.push(data);
     localStorage.setItem("Defaultaddress", JSON.stringify(data1));
   }
