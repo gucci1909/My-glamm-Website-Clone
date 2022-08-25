@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://www.myglamm.com/images/myGlamm-icon.png"
+    />
+    <title>Payment</title>
+    <link rel="stylesheet" href="./style/payment.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-+4j30LffJ4tgIMrq9CwHvn0NjEvmuDCOfk6Rpg2xg7zgOxWWtLtozDEEVvBPgHqE"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="navbar">
+      <img
+        alt="logo"
+        id="m-auto"
+        src="https://files.myglamm.com/site-images/original/MyGlamm-Logo_1.jpg"
+        style="max-height: 6rem"
+      />
+      <h4>SHOPPING BAG</h4>
+      <h4>SELECT ADDRESS</h4>
+      <h4>CHECKOUT</h4>
+      <h1>PAYMENT</h1>
+      <img
+        src="https://www.myglamm.com/images/no_user_yellow.png"
+        alt="user"
+        height="20"
+      />
+      <div class="dropdown">
+        <a
+          class="btn btn dropdown-toggle"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          My Account
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">My Profile</a></li>
+          <li><a class="dropdown-item" href="#">My Orders</a></li>
+          <li><a class="dropdown-item" href="#">My Dashboard</a></li>
+          <li><a class="dropdown-item" href="#">MyGlammXO Party</a></li>
+        </ul>
+      </div>
+    </div>
+    <h1>Payment</h1>
+    <div id="cont"></div>
+    <div id="payment"></div>
+    <div class="mainscreen">
+      <d1iv class="card">
+        <div class="rightside">
+          <form action="">
+            <p>Cardholder Name</p>
+            <input type="text" class="inputbox" name="name" required />
+            <p>Card Number</p>
+            <input
+              type="number"
+              class="inputbox"
+              name="card_number"
+              id="card_number"
+              required
+            />
+
+            <p>Card Type</p>
+            <select class="inputbox" name="card_type" id="card_type" required>
+              <option value="">--Select a Card Type--</option>
+              <option value="Visa">Visa</option>
+              <option value="RuPay">RuPay</option>
+              <option value="MasterCard">MasterCard</option>
+            </select>
+            <div class="expcvv">
+              <p class="expcvv_text">Expiry</p>
+              <input
+                type="date"
+                class="inputbox"
+                name="exp_date"
+                id="exp_date"
+                required
+              />
+
+              <p class="expcvv_text2">CVV</p>
+              <input
+                type="password"
+                class="inputbox"
+                name="cvv"
+                id="cvv"
+                required
+              />
+            </div>
+            <p></p>
+            <div id="bh"></div>
+          </form>
+        </div>
+      </d1iv>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <div id="butt">
+
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="rad">
+          <div class="rad-design"></div>
+          <div class="rad-text">Pay on Delivery</div>
+        </label>
+      
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="rad">
+          <div class="rad-design"></div>
+          <div class="rad-text">Credit/Debit Card</div>
+        </label>
+      
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="rad">
+          <div class="rad-design"></div>
+          <div class="rad-text">Paytm/Phone Pay/Google Pay</div>
+        </label>
+      
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="rad">
+          <div class="rad-design"></div>
+          <div class="rad-text">Net Banking</div>
+        </label>
+      </div>
+  </body>
+</html>
+<script src="./script/payment.js"></script>
