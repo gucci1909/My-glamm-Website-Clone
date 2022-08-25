@@ -123,5 +123,5 @@ function contin() {
 }
 document.getElementById("back").addEventListener("click" , back);
 function back(){
-  window.location.href = "/"
+  window.location.href = "./"
 }
