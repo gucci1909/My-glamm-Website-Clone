@@ -1,0 +1,122 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: white;
+    font-family: var(--fontFamily);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#ashubigbox{
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: auto;
+    margin-top: 140px;
+}
+#ashuhandle{
+/* border: 1px solid yellow; */
+   width: 85%;
+   margin: auto;
+   margin-top: 100px;
+}
+
+#ashucontainer{
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);   
+    gap: 30px;
+}
+#card{
+    /* border: 1px solid rebeccapurple; */
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-top-color: rgb(229, 231, 235);
+    border-top-style: solid;
+    border-top-width: 0px;
+    border-right-color: rgb(229, 231, 235);
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-bottom-color: rgb(229, 231, 235);
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    border-left-color: rgb(229, 231, 235);
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border: 1px solid rgb(211, 204, 204);
+}
+
+img {
+width: 100%;
+height: 250px;
+}
+
+#info{
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    object-fit: cover;
+    text-overflow: ellipsis;
+    height: 160px;
+}
+
+
+#brand{
+    font-size: 18px;
+    /* font-weight: 600; */
+    /* border: 1px solid brown; */
+    height: 55px;
+    text-overflow: ellipsis;
+    /* text-decoration: line-through; */
+    overflow: hidden;
+    opacity: 1.1;
+    font-weight: 600;
+    margin: auto auto .5rem;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#des{
+    height: 45px;
+    font-size: 18px;  
+    opacity: .7;
+    line-height: 20px;
+    letter-spacing: .66px;
+    width: 70%;
+    margin: auto;
+    margin-top: 6px;
+} 
+
+#pricdiv{
+    /* border: 1px solid yellow; */
+    width: 70%;
+    /* margin-top: 20px; */
+     /* height: 50px; */
+     font-size: 20px;
+     margin: auto;
+ }
+
+ /* ---------- sorting ---------------- */
+
+    #sort-div{
+     /* border: 1px solid red; */
+     /* width: 10%; */
+     /* height: 50px; */
+     float:right;
+     /* margin: auto; */
+     text-align: center;
+     padding: 10px;
+     margin-top: 30px;
+     margin-left: 40px;
+    }
+ 
+
+

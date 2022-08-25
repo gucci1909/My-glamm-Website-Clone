@@ -1,9 +1,12 @@
 function append(data,container){
-   container.innerhtml=null;
+    container.innerHTML=null;
 
    data.forEach((el) => {
     let card = document.createElement("div")
-     card.setAttribute("id","card")
+     card.setAttribute("id","card");
+     card.onclick = ()=>{
+      getData(el)
+     }
 
      let img = document.createElement("img")
      img.src=el.image;
@@ -18,27 +21,38 @@ function append(data,container){
 
      let price = document.createElement("h4") 
      price.setAttribute("id","pric");
-     price.innerText=`₹ ${el.price}`;
+     price.innerText=`₹ ${el.price} `;
+
+     let s = document.createElement("h4")
+        s.innerText=`₹ ${el.span}`;
 
      let  imdiv = document.createElement("div")
       imdiv.setAttribute("id","imdiv")
-        imdiv.append(img)
+      
 
     let info = document.createElement("div")
       info.setAttribute("id","info")
-      info.append(brand,des)
+      
 
     let pricdiv = document.createElement("div")
       pricdiv.setAttribute("id","pricdiv")
-      pricdiv.append(price)
+     
 
+
+       imdiv.append(img)
+       info.append(brand,des)
+       pricdiv.append(price)
       card.append(imdiv,info,pricdiv)
       container.append(card)
-
 
    })
 
 
+}
+
+function getData(el){
+   let Data = localStorage.setItem("item", JSON.stringify(el));
+   window.location.href = "./AddToBag.html"
 }
 
 export default append
