@@ -1,0 +1,102 @@
+h3{
+    text-decoration: underline;
+}
+
+#l_container{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 820px;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+#l_image{
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 15%;
+
+}
+
+#l_image>img{
+    width: 70%;
+    margin: auto;
+}
+#l_button{
+    padding: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+
+}
+#l_mob{
+
+    margin-top: 10%;
+    font-size: 35px;
+    margin-left: 10%;
+    border-bottom: 3px solid black;
+    /* width: 150px; */
+    padding: 20px;
+    margin-bottom: -8px;
+
+}
+
+#l_main{
+    margin-left: 5%;
+    display: flex;
+}
+#l_1input{
+    width:150px;
+}
+#l_2input{
+    width: 200px;
+}
+#l_terms{
+   text-align: center;
+   margin-top: 2px;
+}
+#l_discount{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#l_cancelbutton{
+text-align: right;
+font-size: 2em;
+}
+#l_country_c{
+    font-size: larger;
+}
+#l_country_c>input{
+    height: 50px;
+
+}
+
+#l_mobi>input{
+    height: 50px;
+    width: 400px;
+
+}
+#l_moblevel{
+    margin-left: 50px;
+    width: 00px;
+}
+legend{
+    font-size: larger;
+}
+input{
+    font-size: xx-large;
+}
+#container_signin{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 820px;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+
+
+}
+
