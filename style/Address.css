@@ -1,0 +1,112 @@
+#cont{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 400px;
+    margin-top: 15%;
+    position: absolute;
+    width: 70%;
+    margin-left: 29%;
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+
+}
+h1{
+    margin-top: -5px
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,300;1,200&display=swap');
+body{
+    background-color: rgb(241, 241, 245);
+}
+#check{
+    width: 20px;
+    height: 10px;
+    margin-right: 30%;
+    padding-bottom: 50%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(71, 50, 50);
+    font-weight: lighter;
+    font-size: 18px;
+    height: 40px;
+    border: none;
+    background-color:rgb(241, 241, 245);
+    text-transform:capitalize;
+
+}
+.you{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 14px;
+}
+#default{
+    position: absolute;
+    margin-left: 715px;
+    margin-top: -54px;
+    
+}
+#gmap_canvas{
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 14px;
+}
+.input1
+{
+    width: 300px;
+    height: 25px;
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(71, 50, 50);
+    font-weight: lighter;
+    font-size: 18px;
+    height: 40px;
+    border: none;
+    background-color:rgb(241, 241, 245);
+    text-transform:capitalize;
+
+}
+.select{
+    width: 150px;
+    height: 25px;
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(71, 50, 50);
+    font-weight: bolder;
+    font-size: 18px;
+    height: 40px;
+    border: none;
+    background-color:rgb(241, 241, 245);
+    text-transform:capitalize;
+}
+#back{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    height: 50px;
+    width: 120px;
+    font-size: 28px;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(156, 156, 164)!important;
+    margin-left: 65%;
+
+}
+#continue{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    height: 50px;
+    width: 150px;
+    font-size: 28px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(156, 156, 164)!important;
+}
