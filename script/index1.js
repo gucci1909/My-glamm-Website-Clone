@@ -49,3 +49,7 @@ let nextSlide = ()=>{
     cont.append(img);
     index++;
 }
+
+// let data = JSON.parse(localStorage.getItem("user"));
+
+// document.getElementById("user-name").innerText = data;
