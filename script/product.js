@@ -1,6 +1,6 @@
 // import { Product } from "./productdata/data.js";
 
-import navbar from  "../component/navbar.js"
+import navbar from  "../component/santa.js"
 document.getElementById("navbar").innerHTML=navbar();
 
 
@@ -16,6 +16,7 @@ let sorting = document.getElementById("sort").addEventListener("change",sort);
  append(Product.makeup,container)
  
  let make = document.querySelector(".make").addEventListener("click", () => {
+  document.querySelector("#ashubigbox>h6").innerText="HOME / MAKEUP"
     document.querySelector("#ashubigbox>h2").innerText="MAKEUP"
     append(Product.makeup,container)
  })
@@ -23,12 +24,14 @@ let sorting = document.getElementById("sort").addEventListener("change",sort);
 
 
  let hair = document.querySelector(".hair").addEventListener("click", () => {
+  document.querySelector("#ashubigbox>h6").innerText="HOME / HAIRCARE"
     document.querySelector("#ashubigbox>h2").innerText="HAIR CARE"
     append(Product.hair,container)
  })
 
  
  let Skin = document.querySelector(".skin").addEventListener("click", () => {
+  document.querySelector("#ashubigbox>h6").innerText="HOME / SKINCARE"
     document.querySelector("#ashubigbox>h2").innerText="SKIN CARE"
     append(Product.skincare,container)
  })
