@@ -1,5 +1,8 @@
+import navbar from "../component/navbar.js"
 
 
+let nav = document.getElementById("bagPageNAv");
+nav.innerHTML = navbar()
 let overview_btn = () => {
     let btn1 = document.getElementById("btn1");
     btn1.onclick = () => {
@@ -121,7 +124,6 @@ let append = () => {
     bag_btn.onclick = () => {
         addtobag(item)
     }
-
     let gray_back = document.createElement("p");
     gray_back.setAttribute("id", "gray_back");
     gray_back.innerText = "You will receive cashback worth ₹158 as myglammPOINTS on this purchase"
