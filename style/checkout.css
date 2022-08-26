@@ -1,11 +1,208 @@
-#navbar
-{
-    border: 1px solid red;
-    height: 80px;
-    width: 100%;
-    background-color: rgb(250, 250, 255)!important;
-    display: flex;
-    text-align: left;
-    align-items: center;
-    gap: 20px;
+#navbar {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(250, 250, 255) !important;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  gap: 20px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  z-index: 1;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,300;1,200&display=swap");
+body {
+  background-color: rgb(241, 241, 245);
+}
+#check {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: rgb(71, 50, 50);
+  font-weight: bolder;
+  font-size: 32px;
+  height: 40px;
+  border: none;
+}
+#ship {
+  margin-top: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: rgb(71, 50, 50);
+  font-weight: bolder;
+  font-size: 26px;
+  height: 40px;
+  padding: 2%;
+  border: none;
+}
+.mob {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: #ff3f6c;
+  font-weight: bolder;
+  font-size: 20px;
+  border: none;
+}
+#order {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: rgb(71, 50, 50);
+  font-weight: bolder;
+  font-size: 26px;
+  height: 40px;
+  padding: 2%;
+  border: none;
+}
+.pla {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: #ff3f6c;
+  font-weight: bolder;
+  font-size: 20px;
+  border: none;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: rgb(71, 50, 50);
+  font-weight: bolder;
+  font-size: 20px;
+  border: none;
+}
+.container {
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+.img123 {
+  height: 150px;
+  width: 150px;
+}
+.bbn {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: rgb(71, 50, 50);
+  font-weight: bolder;
+  font-size: 20px;
+  border: none;
+}
+.name234 {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: #ff3f6c;
+  font-weight: bolder;
+  font-size: 26px;
+  height: 40px;
+  margin-left: 150px;
+  padding: 4%;
+  border: none;
+}
+#byn5 {
+  text-align: center;
+  margin-top: 30px;
+}
+.byn {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  height: auto;
+  width: 200px;
+  align-items: center;
+  font-size: 28px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgb(156, 156, 164) !important;
+}
+.pay {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: rgb(71, 50, 50);
+  font-weight: bolder;
+  font-size: 26px;
+  height: 40px;
+  margin-left: 20px;
+  padding: 4%;
+  border: none;
+}
+.name2345 {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: rgb(71, 50, 50);
+  font-weight: bolder;
+  font-size: 26px;
+  height: 40px;
+  margin-left: 165px;
+  padding: 4%;
+  border: none;
+}
+#line {
+  border: 0.5px solid darkgray;
+  width: 80%;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 50px;
+}
+.name23 {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: rgb(71, 50, 50);
+  font-weight: bolder;
+  font-size: 26px;
+  height: 40px;
+  padding: 4%;
+  border: none;
+}
+#foo {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: rgb(71, 50, 50);
+  font-weight: bolder;
+  font-size: 26px;
+  height: 40px;
+  padding: 4%;
+  border: none;
+}
+#payment {
+  width: 550px;
+  height: 460px;
+  background-color: #e7e7e7;
+  margin-left: 700px;
+  margin-top: -1400px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.div123 {
+  display: flex;
+  gap: 100px;
+  margin-top: 30px;
+}
+.htm {
+  margin-top: -5px;
+}
+.h68 {
+  margin-left: -15px;
+  margin-top: -5px;
+}
+#cont {
+  margin-top: 25px;
+  width: 550px;
+  height: 300px;
+}
+
+#cont2 {
+  margin-top: 30px;
+}
+#div1 {
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+}
+.head {
+  cursor: pointer;
+  margin-left: 30px;
+}
+#user {
+  margin-left: 100px;
+}
+.pic {
+  margin-left: 20px;
 }

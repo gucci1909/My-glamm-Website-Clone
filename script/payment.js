@@ -154,4 +154,24 @@ function display3(address) {
     }
   );
 }
+document.getElementById("SHOPPING").addEventListener("click",shopping);
+function shopping(){
+  window.location.href = "./Cart.html"
+}
+document.getElementById("ADDRESS").addEventListener("click",address1);
+function address1(){
+  window.location.href = "./Address.html";
+}
+document.getElementById("CHECKOUT").addEventListener("click",checkout);
+function checkout(){
+  window.location.href = "./checkout.html";
+}
+document.getElementById("PAYMENT").addEventListener("click",payment);
+function payment(){
+  window.location.href = "./payment.html"
+}
+
+
+
+
 
