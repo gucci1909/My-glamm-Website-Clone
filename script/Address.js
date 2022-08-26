@@ -91,16 +91,13 @@ function contin() {
     State: state,
     Landmark: landmark,
   };
-  
+
   let value = document.getElementById("check");
-  if(value.checked)
-  {
+  if (value.checked) {
     let data1 = [];
     data1.push(data);
     localStorage.setItem("Defaultaddress", JSON.stringify(data1));
-  }
-  else
-  {
+  } else {
     let data1 = JSON.parse(localStorage.getItem("address")) || [];
     data1.push(data);
     localStorage.setItem("address", JSON.stringify(data1));
@@ -121,7 +118,7 @@ function contin() {
   document.getElementById("state").value = null;
   document.getElementById("landmark").value = null;
 }
-document.getElementById("back").addEventListener("click" , back);
-function back(){
-  window.location.href = "./"
+document.getElementById("back").addEventListener("click", back);
+function back() {
+  window.location.href = "./";
 }

@@ -1,37 +1,4 @@
-let Product = [
-  {
-    Image: "https://files.myglamm.com/site-images/800x800/Twstr-(1).jpg",
-    Brand: "TWIST IT MASCARA",
-    Price: 1250,
-    Description: "Volumising and Curling Mascara",
-  },
-  {
-    Image: "https://files.myglamm.com/site-images/800x800/Twstr-(1).jpg",
-    Brand: "TWIST IT MASCARA",
-    Price: 1250,
-    Description: "Volumising and Curling Mascara",
-  },
-  {
-    Image: "https://files.myglamm.com/site-images/800x800/Twstr-(1).jpg",
-    Brand: "TWIST IT MASCARA",
-    Price: 1250,
-    Description: "Volumising and Curling Mascara",
-  },
-  {
-    Image: "https://files.myglamm.com/site-images/800x800/STRBNG-(1).png",
-    Brand: "MANISH MALHOTRA STROBING CREAM",
-    Price: 1550,
-    Description: "Versatile Illuminator With A Blend of 3 Hyaluronic Acids",
-  },
-  {
-    Image: "https://files.myglamm.com/site-images/800x800/Twstr-(1).jpg",
-    Brand: "TWIST IT MASCARA",
-    Price: 1250,
-    Description: "Volumising and Curling Mascara",
-  },
-];
-// let Product = JSON.parse(localStorage.getItem("data"));
-
+let Product = JSON.parse(localStorage.getItem("data"));
 var sum = 0;
 for (var i = 0; i < Product.length; i++) {
   sum += Product[i].Price;
@@ -44,18 +11,18 @@ function display2(sum1) {
   let container = document.getElementById("payment");
   let h1 = document.createElement("h1");
   h1.innerText = "Amount Payable";
-  h1.className="name23"
+  h1.className = "name23";
   let h3 = document.createElement("h3");
   h3.innerHTML = `&#8377 ${sum1}`;
-  h3.className = "name234"
-  container.append(h1,h3);
+  h3.className = "name234";
+  container.append(h1, h3);
 }
 display(sum1);
 function display(sum1) {
   let container = document.getElementById("bh");
   let h1 = document.createElement("button");
   h1.innerHTML = `Pay &#8377 ${sum1}`;
-  h1.className = "byn"
+  h1.className = "byn";
   h1.addEventListener("click", () => {
     button1(main1, main2, main3, main4, 5000, 10000, 15000, 20000);
   });
@@ -120,7 +87,7 @@ function display3(address) {
       h1.innerText = `${Name}`;
       let h6 = document.createElement("p");
       h6.innerText = `${Place}`;
-      h6.className= "pla"
+      h6.className = "pla";
       let h2 = document.createElement("p");
       h2.innerText = `${Flat} , ${Street} , ${City} , ${State} , ${Pin}`;
       let h7 = document.createElement("p");
@@ -128,7 +95,7 @@ function display3(address) {
       h3.innerText = `Ph no. ${Mobile}`;
       let h4 = document.createElement("p");
       h4.innerText = `${Email}`;
-      div.append(h1, h6,h2,h3,h4);
+      div.append(h1, h6, h2, h3, h4);
       cont.append(div);
     }
   );
