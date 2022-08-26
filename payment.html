@@ -55,87 +55,91 @@
         </ul>
       </div>
     </div>
-    <h1>Payment</h1>
-    <div id="cont"></div>
-    <div id="payment"></div>
-    <div class="mainscreen">
-      <d1iv class="card">
-        <div class="rightside">
-          <form action="">
-            <p>Cardholder Name</p>
-            <input type="text" class="inputbox" name="name" required />
-            <p>Card Number</p>
-            <input
-              type="number"
-              class="inputbox"
-              name="card_number"
-              id="card_number"
-              required
-            />
+    <h1 id="check">Payment</h1>
+    <div class="container">
 
-            <p>Card Type</p>
-            <select class="inputbox" name="card_type" id="card_type" required>
-              <option value="">--Select a Card Type--</option>
-              <option value="Visa">Visa</option>
-              <option value="RuPay">RuPay</option>
-              <option value="MasterCard">MasterCard</option>
-            </select>
-            <div class="expcvv">
-              <p class="expcvv_text">Expiry</p>
+ <h1 id="ship">SHIPPING ADDRESS</h1>
+      <div id="cont"></div>
+      <div id="payment"></div>
+      <div class="mainscreen">
+        <d1iv class="card">
+          <div class="rightside">
+            <form action="">
+              <p>Cardholder Name</p>
+              <input type="text" class="inputbox" name="name" required />
+              <p>Card Number</p>
               <input
-                type="date"
+                type="number"
                 class="inputbox"
-                name="exp_date"
-                id="exp_date"
+                name="card_number"
+                id="card_number"
                 required
               />
-
-              <p class="expcvv_text2">CVV</p>
-              <input
-                type="password"
-                class="inputbox"
-                name="cvv"
-                id="cvv"
-                required
-              />
-            </div>
-            <p></p>
-            <div id="bh"></div>
-          </form>
-        </div>
-      </d1iv>
-    </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-    <div id="butt">
-
-        <label class="rad-label">
-          <input type="radio" class="rad-input" name="rad">
-          <div class="rad-design"></div>
-          <div class="rad-text">Pay on Delivery</div>
-        </label>
-      
-        <label class="rad-label">
-          <input type="radio" class="rad-input" name="rad">
-          <div class="rad-design"></div>
-          <div class="rad-text">Credit/Debit Card</div>
-        </label>
-      
-        <label class="rad-label">
-          <input type="radio" class="rad-input" name="rad">
-          <div class="rad-design"></div>
-          <div class="rad-text">Paytm/Phone Pay/Google Pay</div>
-        </label>
-      
-        <label class="rad-label">
-          <input type="radio" class="rad-input" name="rad">
-          <div class="rad-design"></div>
-          <div class="rad-text">Net Banking</div>
-        </label>
+  
+              <p>Card Type</p>
+              <select class="inputbox" name="card_type" id="card_type" required>
+                <option value="">--Select a Card Type--</option>
+                <option value="Visa">Debit</option>
+                <option value="RuPay">Credit</option>
+              </select>
+              <div class="expcvv">
+                <p class="expcvv_text">Expiry</p>
+                <input
+                  type="date"
+                  class="inputbox"
+                  name="exp_date"
+                  id="exp_date"
+                  required
+                />
+  
+                <p class="expcvv_text2">CVV</p>
+                <input
+                  type="password"
+                  class="inputbox"
+                  name="cvv"
+                  id="cvv"
+                  required
+                />
+              </div>
+              <p></p>
+              <div id="bh"></div>
+            </form>
+          </div>
+        </d1iv>
       </div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"
+      ></script>
+      <div id="butt">
+        <h1 id="oop">Payment Methods</h1>
+        
+          <label class="rad-label">
+            <input type="radio" class="rad-input" name="rad">
+            <div class="rad-design"></div>
+            <div class="rad-text">Pay on Delivery</div>
+          </label>
+        
+          <label class="rad-label">
+            <input type="radio" class="rad-input" name="rad">
+            <div class="rad-design"></div>
+            <div class="rad-text">Credit/Debit Card</div>
+          </label>
+        
+          <label class="rad-label">
+            <input type="radio" class="rad-input" name="rad">
+            <div class="rad-design"></div>
+            <div class="rad-text">Paytm/Phone Pay/Google Pay</div>
+          </label>
+        
+          <label class="rad-label">
+            <input type="radio" class="rad-input" name="rad">
+            <div class="rad-design"></div>
+            <div class="rad-text">Net Banking</div>
+          </label>
+        </div>
+    </div>
   </body>
 </html>
 <script src="./script/payment.js"></script>

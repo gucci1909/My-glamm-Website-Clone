@@ -11,11 +11,118 @@
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     z-index: 1;
 }
+.name234 {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+    height: 40px;
+    margin-left: 50px;
+    padding: 1%;
+    border: none;
+  }
+#payment{
+    display: flex;
+    border: 1px solid rgb(71, 50, 50);
+    width: 650px;
+    background-color: rgba(223,189,81,.1);
+    gap: 250px;
+    position: absolute;
+    margin-left: 640px;
+    margin-top: -350px;
+    border-radius: 5px;
+}
+.name23{
+
+    font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: rgb(71, 50, 50);
+  font-weight: bolder;
+  font-size: 26px;
+  height: 40px;
+  padding: 1%;
+  border: none
+}
+#bh{
+    text-align: center;
+  margin-top: 30px;
+}
+.byn {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    height: auto;
+    width: 200px;
+    align-items: center;
+    font-size: 28px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(156, 156, 164) !important;
+  }
+.container {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  }
+  #cont {
+    margin-top: 25px;
+    width: 550px;
+    height: 300px;
+  }
+  .pla {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    color: #ff3f6c;
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,300;1,200&display=swap");
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    color: rgb(71, 50, 50);
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+  }
+#ship {
+    margin-top: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    color: rgb(71, 50, 50);
+    font-weight: bolder;
+    font-size: 26px;
+    height: 40px;
+    padding: 2%;
+    border: none;
+}
+#check {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    color: rgb(71, 50, 50);
+    font-weight: bolder;
+    font-size: 32px;
+    height: 40px;
+    border: none;
+  }
+  #oop{
+    
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    color: rgb(71, 50, 50);
+    font-weight: bolder;
+    font-size: 26px;
+    height: 40px;
+    border: none;
+  }
 #butt{
-    margin-top: 60px;
+    margin-top: -550px;
     margin-left: 40px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Open+Sans:wght@300&family=Poppins:ital,wght@1,200&display=swap');
+
 .rad-label {
     display: flex;
     align-items: center;
@@ -84,14 +191,18 @@
     color: hsla(0, 0%, 0%, .5);
     font-size: 16px;
   }
-
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,300;1,200&display=swap");
+  body {
+    background-color: rgb(241, 241, 245);
+  }
 .card {
-	width: 60rem;
+	width: 40rem;
     margin: auto;
     background: white;
     position:center;
     align-self: center;
-    /* top: 50rem; */
+    top: -15rem;
+    left: 20rem;
     border-radius: 1.5rem;
     box-shadow: 4px 3px 20px #3535358c;
     display:flex;
