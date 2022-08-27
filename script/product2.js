@@ -1,12 +1,12 @@
-// import { Product } from "./productdata/data.js";
+// import { Product } from "./productdata2/data2.js";
 
 import navbar from  "../component/santa.js"
 document.getElementById("navbar").innerHTML=navbar();
 
 
-import { Product , sortingdata } from "./data.js";
+import { Product , sortingdata } from "./data2.js";
 
-import append from "../component/fetch.js";
+import append from "../component/fetching.js";
 
 
 let container = document.querySelector("#ashucontainer")
