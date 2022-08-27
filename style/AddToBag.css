@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main_div {
+    width: 73%;
+    margin: auto;
+    font-family: sans-serif;
+    /* margin-top: 30px; */
+}
+
+#heading {
+    width: 53%;
+    display: flex;
+    margin: auto;
+    font-size: 12.5px;
+    font-family: sans-serif;
+    gap: 10px;
+}
+
+#container {
+    display: flex;
+}
+
+#left_div {
+    display: flex;
+    width: 45%;
+    gap: 10px;
+    margin-top: 35px;
+}
+
+#small_img {
+    width: 17%;
+}
+
+#small_img img {
+    width: 100%;
+}
+
+#big_img {
+    width: 75%;
+}
+
+#big_img img {
+    width: 100%;
+}
+
+#right_div {
+    width: 55%;
+    margin-top: 35px;
+}
+
+#brand {
+    font-size: 21px;
+}
+
+#desc {
+    font-size: 14.5px;
+    color: grey;
+}
+
+#price {
+    font-size: 23px;
+}
+
+#mrp {
+    font-size: 13px;
+    /* margin-top: -20px; */
+}
+
+#right_img {
+    width: 28%;
+}
+
+#bag_button {
+    padding: 12px 45px 12px 45px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#gray_back {
+    background-color: #f4f4f4;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#glamm2 {
+    width: 100%;
+}
+
+hr {
+    color: gray;
+    height: 0px;
+}
+#overview li{
+    /* gap: 10px; */
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 530;
+}
+#overvies_btns{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    gap: 15px;
+   margin-top: 25px;
+/* margin-bottom: 25px; */
+    position: relative;
+}
+#overvies_btns h5{
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+#btn1{
+    /* position: absolute; */
+    border-bottom: 3px solid;
+}
+#one{
+    /* display: none; */
+    
+}
+#two{
+    display: none;
+}
+#three{
+    display: none;
+}
+#four{
+    display: none;
+    font-weight: 550;
+}
+#dynamic_li{
+    width: 70%;
+    margin: auto;
+    /* margin-top: 20px; */
+}
+
