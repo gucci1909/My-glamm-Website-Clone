@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://www.myglamm.com/images/myGlamm-icon.png"
+    />
+    <link rel="stylesheet" href="./style/address.css" />
+    <link rel="stylesheet" href="./style/nav.css">
+    <title>Add Shipping Address</title>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="cont">
+      <h1>Shipping Address</h1>
+      <input class="input1" type="text" placeholder="Name" id="name1" />
+      <input
+        class="input1"
+        type="number"
+        placeholder="Mobile Number"
+        id="m_no"
+      />
+      <input class="input1" type="text" placeholder="Email Address" id="email" />
+      <select id="place" class="select">
+        <option value="Other">Other</option>
+        <option value="Home">Home</option>
+        <option value="Office">Office</option>
+      </select>
+      <input
+        class="input1"
+        type="text"
+        id="flat"
+        placeholder="Flat no. / House no. / Apt Name"
+      />
+      <input class="input1" type="text" placeholder="Street name" id="Street" />
+      <input class="input1" type="text" placeholder="Neighbourhood" id="Neigh" />
+      <input class="input1" type="number" placeholder="Pincode" id="Pin" />
+      <input
+        class="input1"
+        type="text"
+        id="incity"
+        onchange="debounce(getData,1000)"
+        placeholder="City"
+      />
+      <input class="input1" type="text" id="state" placeholder="State" />
+      <input class="input1" type="text" id="landmark" placeholder="Landmark" />
+      <input type="checkbox" id="check" />
+      <p id="default">Mark as Default</p>
+      <button id="back">Back</button>
+      <button id="continue">Continue</button>
+    </div>
+    <div id="container"></div>
+    <div id="container1"></div>
+    <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe 
+          width="410"
+          height="500"
+          id="gmap_canvas"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>
+<script type="module">
+  import navbar from "./component/navbar.js";
+  document.getElementById("navbar").innerHTML = navbar();
+</script>
+<script src="./script/address.js"></script>

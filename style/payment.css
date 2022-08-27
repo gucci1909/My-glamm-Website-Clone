@@ -1,0 +1,302 @@
+#navbar
+{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(250, 250, 255)!important;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    z-index: 1;
+}
+.name234 {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+    height: 40px;
+    margin-left: 50px;
+    padding: 1%;
+    border: none;
+  }
+#payment{
+    display: flex;
+    border: 1px solid rgb(71, 50, 50);
+    width: 650px;
+    background-color: rgba(223,189,81,.1);
+    gap: 250px;
+    position: absolute;
+    margin-left: 640px;
+    margin-top: -350px;
+    border-radius: 5px;
+}
+.name23{
+
+    font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: rgb(71, 50, 50);
+  font-weight: bolder;
+  font-size: 26px;
+  height: 40px;
+  padding: 1%;
+  border: none
+}
+#bh{
+    text-align: center;
+  margin-top: 30px;
+}
+.byn {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    height: auto;
+    width: 200px;
+    align-items: center;
+    font-size: 28px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(156, 156, 164) !important;
+  }
+.container {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  }
+  #cont {
+    margin-top: 25px;
+    width: 550px;
+    height: 300px;
+  }
+  .pla {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    color: #ff3f6c;
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,300;1,200&display=swap");
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    color: rgb(71, 50, 50);
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+  }
+#ship {
+    margin-top: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    color: rgb(71, 50, 50);
+    font-weight: bolder;
+    font-size: 26px;
+    height: 40px;
+    padding: 2%;
+    border: none;
+}
+#check {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    color: rgb(71, 50, 50);
+    font-weight: bolder;
+    font-size: 32px;
+    height: 40px;
+    border: none;
+  }
+  #oop{
+    
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    color: rgb(71, 50, 50);
+    font-weight: bolder;
+    font-size: 26px;
+    height: 40px;
+    border: none;
+  }
+#butt{
+    margin-top: -550px;
+    margin-left: 40px;
+}
+
+.rad-label {
+    display: flex;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+    background :white;
+    border-radius: 100px;
+    padding: 14px 16px;
+    margin: 10px 0;
+    width: 400px;
+    cursor: pointer;
+    transition: .3s;
+}
+.rad-label:hover,
+.rad-label:focus-within {
+    background: whitesmoke;
+}
+.rad-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    z-index: -1;
+  }
+  .rad-design {
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+    background: #ff3f6c;
+    position: relative;
+  }
+  .rad-design::before {
+    content: '';
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background: whitesmoke;
+    transform: scale(1.1);
+    transition: .3s;
+  }
+  .rad-input:checked+.rad-design::before {
+    transform: scale(0);
+  }
+  .rad-text {
+    color: hsl(0, 0%, 60%);
+    margin-left: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 900;
+  
+    transition: .3s;
+  }
+  .rad-input:checked~.rad-text {
+    color: hsl(0, 0%, 40%);
+  }
+  .abs-site-link {
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    color: hsla(0, 0%, 0%, .5);
+    font-size: 16px;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,300;1,200&display=swap");
+  body {
+    background-color: rgb(241, 241, 245);
+  }
+.card {
+	width: 40rem;
+    margin: auto;
+    background: white;
+    position:center;
+    align-self: center;
+    top: -15rem;
+    left: 20rem;
+    border-radius: 1.5rem;
+    box-shadow: 4px 3px 20px #3535358c;
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.leftside {
+	background: #030303;
+	width: 25rem;
+	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+	border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.product {
+    object-fit: cover;
+	width: 20em;
+    height: 20em;
+    border-radius: 100%;
+}
+
+.rightside {
+    background-color: #ffffff;
+	width: 35rem;
+	border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 1rem 2rem 3rem 3rem;
+}
+
+p{
+    display:block;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: .8rem 0;
+}
+
+.inputbox
+{
+    color:#030303;
+	width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1.5px solid #ccc;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: #615a5a;
+    font-size: 1.1rem;
+    font-weight: 500;
+  outline:none;
+}
+
+.expcvv {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 0.6rem;
+}
+
+.expcvv_text{
+    padding-right: 1rem;
+}
+.expcvv_text2{
+    padding:0 1rem;
+}
+
+.button{
+    background: linear-gradient(135deg ,#753370 0%, #298096 100%);
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    width:100%;
+    letter-spacing: .11rem;
+    outline:none;
+}
+
+.button:hover
+{
+	transform: scale(1.05) translateY(-3px);
+    box-shadow: 3px 3px 6px #38373785;
+}
+.head{
+    cursor: pointer;
+    margin-left: 30px;
+}
+#user{
+    margin-left: 100px;
+
+}
+.pic{
+    margin-left: 20px;
+}

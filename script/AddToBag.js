@@ -77,6 +77,7 @@ let append = () => {
     let right_div = document.getElementById("right_div")
     
     // console.log(item);
+    let item = JSON.parse(localStorage.getItem("item"));
 
     let small_img = document.createElement("div")
     small_img.setAttribute("id","small_img")

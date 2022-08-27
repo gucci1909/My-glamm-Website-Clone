@@ -1,4 +1,4 @@
-let data = JSON.parse(localStorage.getItem("data")) || [];
+let data = JSON.parse(localStorage.getItem("data"));
 
 if (data.length === 0) {
     let p = document.createElement("p");
@@ -7,8 +7,8 @@ if (data.length === 0) {
     let cont = document.getElementById("cart_box")
     cont.append(p)
 }
-
-function append() {
+append(data);
+function append(data){
     let count = data.length
     let mybag = document.createElement("p");
     mybag.innerText = `MY BAG (${count})`
