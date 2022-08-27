@@ -85,7 +85,7 @@ let navbar = ()=>{
             </div>
         </div>
         <div class="boxNav">
-            <p> HAIR CARE</p>
+            <p class ="hair"> HAIR CARE</p>
             <div class="downBox">
                 <!-- <p style="color:pink;">HAIR CARE</p> -->
                 <p>Shampoo</p>
@@ -97,7 +97,7 @@ let navbar = ()=>{
             </div>
         </div>
         <div class="fulBox">
-            <p>SKINCARE</p>
+            <p class="skin">SKINCARE</p>
             <div  class="fDownBox">
                <div>
                     <p style="color:pink;"><strong>Moisturizer</strong></p>

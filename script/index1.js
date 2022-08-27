@@ -21,10 +21,10 @@ let slideshow = ()=>{
         if(index == image.length){
             index=0;
         }
-        cont.innerHTML="";
+        // cont.innerHTML="";
         let img = document.createElement("img");
         img.src = image[index];
-        cont.append(img);
+        // cont.append(img);
         index++;
     },3000);
 };
@@ -39,7 +39,7 @@ let previousSilde = ()=>{
     cont.innerHTML="";
     let img = document.createElement("img");
     img.src = image[index];
-    cont.append(img);
+    // cont.append(img);
 }
 
 let nextSlide = ()=>{
@@ -52,10 +52,10 @@ let nextSlide = ()=>{
     cont.innerHTML="";
     let img = document.createElement("img");
     img.src = image[index];
-    cont.append(img);
+    // cont.append(img);
     index++;
 }
 
 let data = JSON.parse(localStorage.getItem("user"));
 
-document.getElementById("user-name").innerText = data.value;
+// document.getElementById("user-name").innerText = data.value;
