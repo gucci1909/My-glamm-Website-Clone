@@ -1,9 +1,9 @@
 let Star =()=>{
-    window.location.href="signin.html";
+    window.location.href="./signin.html";
 
 }
 
 let cross =()=>{
-    window.location.href="index.html";
+    window.location.href="./index.html";
 
 }

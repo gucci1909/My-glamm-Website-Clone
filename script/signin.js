@@ -27,6 +27,7 @@ let h1=document.getElementById("counter")
         
         let name= document.getElementById("name").value;
         localStorage.setItem("user",JSON.stringify(name));
-        location.href="index.html"
+        alert("Login Successful");
+        window.location.href="./index.html"
 
     }
