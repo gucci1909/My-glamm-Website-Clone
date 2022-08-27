@@ -65,7 +65,9 @@ let overview_btn = () => {
         four.style.display = "block"
     }
 }
-overview_btn()
+overview_btn();
+
+
 
 
 let append = () => {
@@ -73,7 +75,7 @@ let append = () => {
     let cont = document.getElementById("container")
     let left_div = document.getElementById("left_div")
     let right_div = document.getElementById("right_div")
-    let item = JSON.parse(localStorage.getItem("item"))
+    
     // console.log(item);
 
     let small_img = document.createElement("div")
@@ -155,6 +157,5 @@ function addtobag(item) {
     let data1 = JSON.parse(localStorage.getItem("data")) || [];
     data1.push(data);
     localStorage.setItem("data", JSON.stringify(data1));
-
-    window.location.href = "./cart.html"
+    alert("Product Has Been Added..!!")
 }
