@@ -1,4 +1,10 @@
+let gotosignup = ()=>{
+    window.location.href="./signup.html"
+}
 
+function gotocart(){
+    window.location.href="./Cart.html";
+}
 
 let image =[
     "./image/1.jpg",
@@ -50,6 +56,6 @@ let nextSlide = ()=>{
     index++;
 }
 
-// let data = JSON.parse(localStorage.getItem("user"));
+let data = JSON.parse(localStorage.getItem("user"));
 
-// document.getElementById("user-name").innerText = data;
+document.getElementById("user-name").innerText = data.value;

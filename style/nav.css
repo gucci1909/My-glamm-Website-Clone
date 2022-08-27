@@ -22,7 +22,10 @@
 #nav1>div {
     display: flex;
 }
-
+#makeup{
+    text-decoration: none;
+    color: black;
+}
 #nav1>div>img {
     width: 15px;
     height: 15px;
@@ -90,8 +93,8 @@ input.nosubmit {
 #nav2_img2 {
     width: 30px;
     height: 30px;
-    margin-left: 30%;
-    margin-top: 15px;
+    margin-left: 400px;
+    margin-top: 20px;
 }
 
 #nav2_img2:hover {
@@ -102,7 +105,7 @@ input.nosubmit {
     width: 30px;
     height: 30px;
     margin-left: 25px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 #nav2>div {
@@ -114,7 +117,7 @@ input.nosubmit {
 }
 
 #user-name {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 5px;
 }
 
