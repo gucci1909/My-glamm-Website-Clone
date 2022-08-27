@@ -11,9 +11,11 @@ let navbar = ()=>{
         </div>
     </div>
     <div id=nav2>
-        <img id="nav2_img1" src="https://files.myglamm.com/site-images/original/MyGlamm-Logo_1.jpg" alt="">
+        <a href= "./index.html"><img id="nav2_img1" src="https://files.myglamm.com/site-images/original/MyGlamm-Logo_1.jpg" alt=""></a>
         <input class="nosubmit" type="search" id="searchProduct" placeholder=" Find Lipstick, Eyeliner, Makeup Tutorial, etc">
-        <img id="nav2_img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHKnjjOPjdiZPIpMh7K0xhE5Kxtf3GuE9pnJfWAf4&s" alt="">
+        <div id="img09" onclick="gotocart()">
+            <img id="nav2_img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHKnjjOPjdiZPIpMh7K0xhE5Kxtf3GuE9pnJfWAf4&s" alt="">
+        </div>
         <div onclick="gotosignup()">
             <img id="nav2_img3" src="https://www.pngitem.com/pimgs/m/517-5177724_vector-transparent-stock-icon-svg-profile-user-profile.png" alt="">
             <h3 id="user-name"></h3>

@@ -8,6 +8,7 @@
     <link rel="icon" type="image/x-icon" href="https://www.myglamm.com/images/myGlamm-icon.png">
     <link rel="stylesheet" href="./style/fanta.css">
     <link rel="stylesheet" href="./style/product.css">
+    <link rel="stylesheet" href="./style/footer.css">
     <!-- <link rel="stylesheet" href="/style/p.css"> -->
     
 </head>
@@ -38,9 +39,15 @@
               
         </div>
  </div>
+ <div id="footer"></div>
        
 </body>
 </html>
-<script type="module" src="./script/product2.js">
-    
+<script type="module">
+import footer from "./component/footer.js";
+let fot = footer();
+document.getElementById("footer").innerHTML = fot;
 </script>
+
+<script type="module" src="./script/product2.js"></script>
+<script src="./script/index1.js"></script>

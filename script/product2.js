@@ -12,7 +12,13 @@ import append from "../component/fetching.js";
 let container = document.querySelector("#ashucontainer")
 let sorting = document.getElementById("sort").addEventListener("change",sort);
 //    container.innerHTML=null;
-
+// let make = document.querySelector(".make").addEventListener("click", () => {
+//   document.querySelector("#ashubigbox>h6").innerText="HOME / MAKEUP"
+//     document.querySelector("#ashubigbox>h2").innerText="MAKEUP"
+//     append(Product.makeup,container)
+//  })
+ document.querySelector("#ashubigbox>h6").innerText="HOME / MAKEUP"
+    document.querySelector("#ashubigbox>h2").innerText="MAKEUP"
  append(Product.makeup,container)
  
  let make = document.querySelector(".make").addEventListener("click", () => {
