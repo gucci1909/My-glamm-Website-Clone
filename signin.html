@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In-Page</title>
+</head>
+<link rel="stylesheet" href="./style/sign.css">
+<body>
+    <div id="container_signin">
+        <div id="verifytag">VERIFY YOUR MOBILE NUMBER TO COMPLETE YOUR REGISTRATION</div>
+
+        <br>
+        <div id="otpenter"><h1>ENTER OTP </h1></div>
+
+        <br>
+
+        
+        <div id="Otpin">
+            <input type="number" required placeholder="Enter Otp">
+         
+            <!-- <input id="partitioned" type="text" maxlength="4" /> -->
+        </div>
+        <h1 id="counter"></h1>
+        <div id="s_NameEmail">
+            <div id="s_nn1">
+                <h1>Name</h1>
+                <input type="text" id="name" placeholder="Enter Full Name" required>
+
+            </div>
+            <div id="s_nn2">
+                <h1>Email-Id</h1>
+                <input type="text" placeholder="Enter Email" required>
+            </div>
+           
+           
+
+        </div>
+        <button id="m_btn" onclick="submitdetail()">Verify</button>
+
+
+
+    </div>
+</body>
+</html>
+<script src="./script/signin.js"></script>
