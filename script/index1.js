@@ -57,5 +57,16 @@ let nextSlide = ()=>{
 }
 
 let data = JSON.parse(localStorage.getItem("user"));
-
-document.getElementById("user-name").innerText = data.value;
+var name1 = "";
+let i=0;
+while(data[i]!==" "){
+    name1 = name1 + data[i];
+    i++;
+}
+console.log(name1);
+if(name1!==null){
+    setTimeout(()=>{
+        let n = document.getElementById('user-name')
+        n.innerText = `Hi , ${name1}`;
+    },2000);
+}

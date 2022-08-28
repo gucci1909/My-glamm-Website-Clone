@@ -128,8 +128,9 @@ input.nosubmit {
 #nav3 {
     width: 80%;
     margin-left: 50px;
+    margin: auto;
     display: flex;
-    padding-left:120px ;
+    /* padding-left:120px ; */
     /* background-color: rgb(251, 249, 249); */
     justify-content: space-evenly;
     padding: 18px;

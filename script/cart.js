@@ -10,9 +10,8 @@ if (data.length === 0) {
 append(data);
 function append(data){
     let count = data.length
-    let mybag = document.createElement("p");
+    let mybag = document.getElementById("myBag");
     mybag.innerText = `MY BAG (${count})`
-    mybag.setAttribute("id", "myBag")
     let final;
     let cont = document.getElementById("cart_box")
     data.forEach((el, index) => {
