@@ -1,2 +1,2 @@
 Project website - https://www.myglamm.com/
-Netlify link - https://cosmic-churros-900a71.netlify.app/
+Netlify link - https://storied-salmiakki-e58d71.netlify.app/
