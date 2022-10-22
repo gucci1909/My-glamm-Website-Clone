@@ -36,10 +36,12 @@ GitHub
 
 - GitHub: [@gucci1909](https://github.com/gucci1909)
 
-👤 **Jigna**
+👤 **Subham Kumar Ram**
 
-- GitHub: [@jigna16](https://github.com/jigna16)
+- GitHub: [@shubham020719](https://github.com/shubham020719)
 
-👤 **Vivek**
+👤 **Ashutosh**
 
-- GitHub: [@vivekanjankc12345](https://github.com/vivekanjankc12345)
+- GitHub: [@Ashutosh5333](https://github.com/Ashutosh5333)
+
+
