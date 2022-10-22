@@ -1,6 +1,6 @@
 # My glamm
 
->MyGlamm is an Indian e-commerce company that sells cosmetics and personal care products. It was a group project and we made the clone website of Jiomart in which we created Home page , Make up products page , Single product page, Cart page ,Delivery location page and Payment page
+>MyGlamm is an Indian e-commerce company that sells cosmetics and personal care products. It was a group project and we made the clone website of Myglamm in which we created Home page , Make up products page , Single product page, Cart page ,Delivery location page and Payment page
 
 ## Built With
 
