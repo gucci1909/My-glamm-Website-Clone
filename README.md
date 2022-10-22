@@ -1,6 +1,6 @@
-# Jio Mart
+# My glamm
 
-> JioMart is an online grocery store that provides 50,000+ grocery products at discounted rates at your doorstep through an express delivery system. It was a group project and we made the clone website of Jiomart in which we created Home page , Signup page , Login page and 2 products page - Fruits and Fashion items page in which sorting , filtering and api's are used , Cart page and Delivery location page
+>MyGlamm is an Indian e-commerce company that sells cosmetics and personal care products. It was a group project and we made the clone website of Jiomart in which we created Home page , Make up products page , Single product page, Cart page ,Delivery location page and Payment page
 
 ## Built With
 
@@ -13,7 +13,7 @@
 
 ## Live Demo 
 
-[Deployed link available here](https://gucci1909.github.io/Jio-Mart-Website-Clone/)
+[Deployed link available here](https://gucci1909.github.io/My-glamm-Website-Clone/)
 
 
 
