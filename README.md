@@ -16,6 +16,11 @@
 [Deployed link available here](https://gucci1909.github.io/My-glamm-Website-Clone/)
 
 
+## Screenshots
+
+![App Screenshot](./images/myglamm.png)
+
+
 
 
 
