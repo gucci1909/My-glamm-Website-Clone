@@ -18,7 +18,7 @@
 
 ## Screenshots
 
-![App Screenshot](./images/myglamm.png)
+![App Screenshot](http://res.cloudinary.com/dtdqzefvj/image/upload/v1670846177/am1waxscgyadozrficqp.png)
 
 
 
